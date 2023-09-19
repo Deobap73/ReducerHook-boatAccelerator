@@ -1,0 +1,11 @@
+.boat-console-container {
+    display: flex;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+    height: 50rem;
+    background-image: url(../assets/veneza-canal1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }

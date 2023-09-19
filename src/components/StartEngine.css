@@ -1,0 +1,57 @@
+.StartEngine {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 40rem;
+  height: 20rem;
+  border-radius: 100% 0 0 0;
+  background-image: url(../assets/wood.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.StartEngineH2 {
+  position: absolute;
+  left: 4rem;
+  bottom: 2rem;
+  width: 11rem;
+  height: 4rem;
+  margin: 1rem;
+  padding: 12px;
+  text-align: center;
+  border: none;
+  font-size: 2rem;
+  background-color: inherit;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #ffffff40;
+  box-shadow: 0 0 0 2px #ffffff20;
+  overflow: hidden;
+}
+
+.button {
+  position: absolute;
+  right: 1rem;
+  width: 15rem;
+  height: 15rem;
+  font-size: 2rem;
+  border-radius: 9.625rem;
+  font-weight: 600;
+  background-color: dark;
+  color: #ffffff40;
+  box-shadow: 0 0 0 2px #ffffff20;
+  overflow: hidden;
+}
+
+.EngineON {
+  background-color: #008000;
+  color: #96ae96;
+}
+
+.EngineOFF {
+  background-color: red;
+  color: rgb(151, 39, 39);
+}

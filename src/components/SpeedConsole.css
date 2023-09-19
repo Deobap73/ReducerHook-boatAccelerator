@@ -1,0 +1,52 @@
+.SpeedConsole {
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 40rem;
+  height: 20rem;
+  border-radius: 0 100% 0 0;
+  background-image: url(../assets/wood.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.SpeedConsoleH2 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4rem 0 0;
+  width: 5rem;
+  font-size: 5rem;
+}
+span {
+  font-size: 1rem;
+}
+
+.SpeedConsoleSpeed {
+  position: relative;
+  
+}
+
+.GearUp {
+  position: absolute;
+  bottom: 2rem;
+  right: 12rem;
+}
+
+.GearDown {
+  position: absolute;
+  top: 4rem;
+  right: 12rem;
+}
+
+.Accelerate{
+  position: absolute;
+  top: -3rem;
+  right: 2rem;
+  width: 7.5rem;
+  height: 7.5rem;
+
+  border-radius: 5rem;
+}
